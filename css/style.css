@@ -1,0 +1,90 @@
+*{
+	margin: 0;///////////////// za maturski
+}
+html, body {
+	height: 100%;
+}
+#header{
+	width: 100%;
+	height: 50px;
+	background-color: #18f244;
+	border: 2px solid #000;
+	border-radius: 8px;
+	font-size: 30px;
+}
+#mentor{
+	margin-left: 10%;
+	background-color: #70cafa;
+	width: 15%;	
+}
+#ucenik{
+	margin-left: 76%;
+	background-color: #70cafa;
+	width: 15%;	
+	margin-top: -2%;
+}
+#sadrzaj{
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto -100px;
+}
+#vrhstranice{
+		width: 15%;
+		margin-left: 75%;
+		margin-top: -7%;
+		border: 2px solid blue;
+		background-color: #18f244;
+		text-decoration: none;
+
+	}
+#vrhstranice:hover{
+		background-color: white;
+	}
+#footer, #push {
+	height: 100px;
+}
+	#Omot {
+		margin-left: 129px;
+		width: 80%;//duzina
+		height: 50px;//sirina
+		background-color: #70cafa;
+	}
+	#naslov {
+		width: 100%;
+		height: 22px;
+		border: 2px solid #000;
+		background-color: #e1f5f0;
+	}
+	#sadrzaj{
+		border: 2px solid #000;
+		background-color: #e1f5f0;
+	}
+	#footer{
+		width: 100%;
+		background-color: #18f244;
+	}
+	.nazivslike{
+		width: 100px;
+		height: 100px;
+	}
+	.menu{
+		float: left;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	.menu a{
+		margin-left: 80px;
+		float: left;
+		width: 9em;
+		text-decoration: none;// da se skloni linija ispod teksta
+		color: #fff;
+		background-color: #70cafa;
+		padding: 0.2em 0.6em;// razmak
+		border-right: 1px solid #fff;
+	}
+	.menu a:hover{
+		background-color: red;
+	}
+	h1 {color: blue}
